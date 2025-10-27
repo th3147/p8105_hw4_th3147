@@ -1,0 +1,28 @@
+---
+title: "My research experience"
+author: "Te-Hsuan Huang"
+date: "2025-10-27"
+output:
+    html_document:
+    toc: true
+    toc_float: true
+---
+
+# My research experience
+
+## Conference
+
+**Asia Pacific Regional Conference – Alzheimer’s Disease International**
+
+Dec. 11, 2022
+
+* Session talk: The Association between Metabolomic Profile and Cognitive Frailty of Older Adults in Taiwan: An Eight-year Cohort Study
+
+## Publications
+
+Hsieh, P. I.**, Huang, T. H.**, Chiou, J. M., Chen, J. H., & Chen, Y. C. (2024). Cohort profile: the Taiwan Initiative for Geriatric Epidemiological Research-a prospective cohort study on cognition. Epidemiology and Health, 46, e2024057. (*Equally contributed first author)
+
+Lee, Y. S., Hsieh, Y. T.**, Huang, T. H.**, Chiou, J. M., Peng, T. C., Liu, Y. L., ... & Chen, Y. C. (2025). Interocular retinal asymmetry and cognitive frailty: A prospective cohort study. Alzheimer's & Dementia, 21(2), e14437.
+
+
+

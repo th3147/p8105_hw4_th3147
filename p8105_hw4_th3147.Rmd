@@ -1,0 +1,64 @@
+---
+title: "p8105_hw4_th3147"
+author: "Te-Hsuan Huang"
+date: "2025-10-27"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+# Hello! I'm Te-Hsuan Huang
+
+I am a second-year Master of Science student in Epidemiology, committed to applying biostatistical methods and data science techniques to address critical public health challenges. I also love to study and work in home.
+
+<img src="./everything-is-possible-at-home-PC.jpg" style="width:80%">
+
+Additional information about my background is provided below.
+
+## My background {.tabset}
+
+### Education
+
+**Columbia university, New York, NY**
+
+MSc in Epidemiology, Sep. 2024 - Present
+
+**National Taiwan University, Taipei, Taiwan**
+
+MSc in Epidemiology and Preventive Medicine, Feb. 2020 – Jan. 2022
+
+* GPA: 4.04/4.3
+
+* Thesis: The Association between Metabolomic Profile and Cognitive Frailty of Older Adults in Taiwan: An Eight-year Cohort Study
+
+### Core Quantitative Skills
+
+* **SAS software** (used in longitudinal and cross-sectional data analysis)
+
+* **R software** (used in meta-analysis)
+
+* **MetaboAnalyst platform** (used in partial least‐squares discriminant analysis)
+
+* **QIAGEN Ingenuity Pathway Analysis software** (used in metabolomics analysis)
+
+### Working experience
+
+**National Taiwan University, Taipei, Taiwan**
+
+Research Assistant, Jan. 2020 – Present 
+
+* Managed, organized, and analyzed longitudinal data using SAS and Excel software
+
+* Tutored 15 undergraduate and graduate students in using SAS software and analyzing longitudinal data
+
+* Completed thorough literature review to find most suitable evaluation for study participants
+
+* Compiled weekly progress reports to ensure research went according to plan 
+
+* Assigned weekly tasks to colleagues 
+
+### Languages
+
+* **Chinese** Native language
+* **English** Intermediate
