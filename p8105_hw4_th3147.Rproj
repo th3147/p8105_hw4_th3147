@@ -11,3 +11,5 @@ Encoding: CP950
 
 RnwWeave: Sweave
 LaTeX: pdfLaTeX
+
+BuildType: Website
