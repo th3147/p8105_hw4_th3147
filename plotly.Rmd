@@ -1,0 +1,60 @@
+---
+title: "Dashboard"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+---
+
+```{r setup, include=FALSE}
+library(tidyverse)
+library(p8105.datasets)
+library(plotly)
+```
+
+```{r}
+data("rest_inspec")
+
+rest_korea=
+rest_inspec |> 
+  filter(
+    !is.na(score),
+    latitude != 0,
+    boro == "Manhattan",
+    cuisine_description == "Korean")
+```
+
+
+Plot for Korean restaurant
+-----------------------------------------------------------------------
+
+### Scatter plot for Korean restaurant
+
+```{r}
+rest_korea |>
+  mutate(text_label = str_c("Score:", score, "\nGrade: ", grade)) |> 
+  plot_ly(
+    x = ~latitude, y = ~longitude, type = "scatter", mode = "markers",
+    color = ~grade, text = ~text_label, alpha = 0.5)
+```
+
+Plot stratified by street  {.tabset}
+-----------------------------------------------------------------------
+
+### Boxplot for Korean restaurant 
+
+```{r}
+rest_korea |> 
+  mutate(street = fct_reorder(street, score)) |> 
+  plot_ly(y = ~score, color = ~street, type = "box", colors = "viridis")
+```
+
+### Barchart for korean restaurant
+
+```{r}
+rest_korea |> 
+  count(street) |> 
+  mutate(street = fct_reorder(street, n)) |> 
+  plot_ly(x = ~street, y = ~n, color = ~street, type = "bar", colors = "viridis")
+```
+
