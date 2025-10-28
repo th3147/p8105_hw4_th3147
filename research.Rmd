@@ -8,8 +8,6 @@ output:
     toc_float: true
 ---
 
-# My research experience
-
 ## Conference
 
 **Asia Pacific Regional Conference – Alzheimer’s Disease International**
