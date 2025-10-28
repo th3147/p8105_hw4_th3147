@@ -10,7 +10,7 @@ output:
 
 # Hello! I'm Te-Hsuan Huang
 
-I am a second-year Master of Science student in Epidemiology, committed to applying biostatistical methods and data science techniques to address critical public health challenges. I also love to study and work in home.
+I am a second-year Master of Science student in Epidemiology, committed to applying biostatistical methods and data science techniques to address critical public health challenges. I also love to study and work at home.
 
 <img src="./everything-is-possible-at-home-PC.jpg" style="width:80%">
 
@@ -42,7 +42,7 @@ MSc in Epidemiology and Preventive Medicine, Feb. 2020 – Jan. 2022
 
 * **QIAGEN Ingenuity Pathway Analysis software** (used in metabolomics analysis)
 
-### Working experience
+### Working Experience
 
 **National Taiwan University, Taipei, Taiwan**
 

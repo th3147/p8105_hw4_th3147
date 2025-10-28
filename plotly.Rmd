@@ -12,7 +12,7 @@ library(p8105.datasets)
 library(plotly)
 ```
 
-```{r}
+```{r include=FALSE}
 data("rest_inspec")
 
 rest_korea=
