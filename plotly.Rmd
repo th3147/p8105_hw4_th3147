@@ -38,10 +38,10 @@ rest_korea |>
     color = ~grade, text = ~text_label, alpha = 0.5)
 ```
 
-Plot stratified by street  {.tabset}
+Plot   {.tabset}
 -----------------------------------------------------------------------
 
-### Boxplot for Korean restaurant 
+### Boxplot for Korean restaurant stratified by street 
 
 ```{r}
 rest_korea |> 
@@ -49,7 +49,7 @@ rest_korea |>
   plot_ly(y = ~score, color = ~street, type = "box", colors = "viridis")
 ```
 
-### Barchart for korean restaurant
+### Barchart for korean restaurant stratified by street
 
 ```{r}
 rest_korea |> 
